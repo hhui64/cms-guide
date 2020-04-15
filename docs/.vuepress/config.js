@@ -1,4 +1,5 @@
 module.exports = {
+  base: '/cms-guide/',
   title: 'CSC Mod Server 服务器指南',
   description: '带上基友，畅游 Minecraft 世界',
   themeConfig: {
