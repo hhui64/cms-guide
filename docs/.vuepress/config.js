@@ -1,14 +1,19 @@
 module.exports = {
   base: '/cms-guide/',
-  title: 'CSC Mod Server 服务器指南',
-  description: '带上基友，畅游 Minecraft 世界',
+  locales: {
+    '/': {
+      lang: 'zh-CN',
+      title: 'CSC Mod Server 服务器指南',
+      description: '带上基友，畅游 Minecraft 世界',
+    },
+  },
   themeConfig: {
     smoothScroll: true,
     lastUpdated: '最后编辑时间',
     // displayAllHeaders: true,
     nav: [
-      { text: '指南', link: '/' },
-      // { text: '目录', link: '/guide/' },
+      { text: '首页', link: '/' },
+      { text: '加入QQ群', link: '/#' },
     ],
     sidebar: [
       {
