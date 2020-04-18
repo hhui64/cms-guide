@@ -19,20 +19,29 @@ module.exports = {
       {
         title: '指南',
         collapsable: false,
+        sidebarDepth: 2,
         children: ['/guide/server-profile.md', '/guide/basic-setting.md', '/guide/server-rules.md', '/guide/start-game.md'],
       },
       {
         title: '插件指南',
         collapsable: false,
+        sidebarDepth: 2,
         children: ['/plugin-guide/EssentialsX.md', '/plugin-guide/QuickShop.md', '/plugin-guide/Residence.md', '/plugin-guide/TitleX.md'],
       },
       {
         title: '模组指南',
         collapsable: false,
+        sidebarDepth: 2,
         children: [
           ['/mod-guide/xi_juest.md', 'xi_juest 的指南'],
           ['/mod-guide/Fm_cai_cai.md', 'Fm_cai_cai 的指南'],
         ],
+      },
+      {
+        title: '捐赠',
+        collapsable: false,
+        sidebarDepth: 2,
+        children: ['/donate/donation-profile.md', '/donate/donation-channels.md', '/donate/donation-list.md'],
       },
     ],
   },
