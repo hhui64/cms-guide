@@ -20,7 +20,7 @@ module.exports = {
         title: '指南',
         collapsable: false,
         sidebarDepth: 2,
-        children: ['/guide/server-profile.md', '/guide/basic-setting.md', '/guide/server-rules.md', '/guide/start-game.md'],
+        children: ['/guide/server-profile.md', '/guide/basic-setting.md', '/guide/mod-content.md', '/guide/server-rules.md', '/guide/start-game.md'],
       },
       {
         title: '插件指南',
